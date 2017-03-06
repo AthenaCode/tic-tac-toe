@@ -1,11 +1,18 @@
 import { Component } from 'react';
+import winner from './helpers';
+import boardFilled from './helpers';
 
-//visualization of Board
+//visualization of empty Board
 
 //[null, null, null]
 //[null, null, null]
 //[null, null, null]
 
+//after 5 plays of the game
+
+//[null, X, X]
+//[X, null, O]
+//[O, null, O]
 
 class Squares extends Component{
 	render(){
@@ -16,7 +23,6 @@ class Squares extends Component{
 }
 
 class Board extends Component {	
-
 
 	checkSquare(item) {
 		//check every square when invoked to update game
@@ -51,8 +57,8 @@ class Game extends Component {
 				<Board />	
 			</div>
 			<div className="board">
-			</div>
 
+			</div>
 		)
 	}
 }
