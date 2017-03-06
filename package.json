@@ -1,0 +1,20 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "./node_modules/.bin/nodemon server/server.js --ignore client/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AthenaCode/tic-tac-toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AthenaCode/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/AthenaCode/tic-tac-toe#readme"
+}
