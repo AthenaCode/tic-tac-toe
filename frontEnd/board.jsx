@@ -2,9 +2,9 @@ import { Component } from 'react';
 
 //visualization of Board
 
-//[0, 0, 0]
-//[0, 0, 0]
-//[0, 0, 0]
+//[null, null, null]
+//[null, null, null]
+//[null, null, null]
 
 
 class Squares extends Component{
@@ -16,8 +16,10 @@ class Squares extends Component{
 }
 
 class Board extends Component {	
+
+
 	checkSquare(item) {
-		//
+		//check every square when invoked to update game
 	  }
 	  render() {
 	    return (
@@ -43,5 +45,14 @@ class Board extends Component {
 	}	
 
 class Game extends Component {
-	
+	render(){
+		return(
+			<div className="game">
+				<Board />	
+			</div>
+			<div className="board">
+			</div>
+
+		)
+	}
 }
